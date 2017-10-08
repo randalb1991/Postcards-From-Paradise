@@ -10,8 +10,9 @@
 		B2F321DD1F86B89C00951731 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F321DC1F86B89C00951731 /* AppDelegate.swift */; };
 		B2F321DF1F86B89C00951731 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F321DE1F86B89C00951731 /* ViewController.swift */; };
 		B2F321E21F86B89C00951731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F321E01F86B89C00951731 /* Main.storyboard */; };
-		B2F321E41F86B89C00951731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F321E31F86B89C00951731 /* Assets.xcassets */; };
 		B2F321E71F86B89C00951731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F321E51F86B89C00951731 /* LaunchScreen.storyboard */; };
+		B2F321EF1F86B93200951731 /* FontsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F321EE1F86B93200951731 /* FontsTableViewController.swift */; };
+		B2F321F11F86C75900951731 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F321F01F86C75900951731 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +20,10 @@
 		B2F321DC1F86B89C00951731 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2F321DE1F86B89C00951731 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B2F321E11F86B89C00951731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B2F321E31F86B89C00951731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2F321E61F86B89C00951731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2F321E81F86B89C00951731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F321EE1F86B93200951731 /* FontsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsTableViewController.swift; sourceTree = "<group>"; };
+		B2F321F01F86C75900951731 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +57,22 @@
 			isa = PBXGroup;
 			children = (
 				B2F321DC1F86B89C00951731 /* AppDelegate.swift */,
-				B2F321DE1F86B89C00951731 /* ViewController.swift */,
+				B2F321F21F86C8E800951731 /* Controllers */,
 				B2F321E01F86B89C00951731 /* Main.storyboard */,
-				B2F321E31F86B89C00951731 /* Assets.xcassets */,
 				B2F321E51F86B89C00951731 /* LaunchScreen.storyboard */,
 				B2F321E81F86B89C00951731 /* Info.plist */,
+				B2F321F01F86C75900951731 /* Media.xcassets */,
 			);
 			path = "Postcards From Paradise";
+			sourceTree = "<group>";
+		};
+		B2F321F21F86C8E800951731 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2F321DE1F86B89C00951731 /* ViewController.swift */,
+				B2F321EE1F86B93200951731 /* FontsTableViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2F321E71F86B89C00951731 /* LaunchScreen.storyboard in Resources */,
-				B2F321E41F86B89C00951731 /* Assets.xcassets in Resources */,
+				B2F321F11F86C75900951731 /* Media.xcassets in Resources */,
 				B2F321E21F86B89C00951731 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2F321DF1F86B89C00951731 /* ViewController.swift in Sources */,
+				B2F321EF1F86B93200951731 /* FontsTableViewController.swift in Sources */,
 				B2F321DD1F86B89C00951731 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
